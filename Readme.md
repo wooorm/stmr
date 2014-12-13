@@ -1,4 +1,4 @@
-# stmr([1](http://www.gsp.com/support/man/)) [![Build Status](https://img.shields.io/travis/wooorm/stmr.svg?style=flat)](https://travis-ci.org/wooorm/stmr) [![Coverage Status](https://img.shields.io/coveralls/wooorm/stmr.svg?style=flat)](https://coveralls.io/r/wooorm/stmr?branch=master)
+# stmr([1](http://www.gsp.com/support/man/)) [![Build Status](https://img.shields.io/travis/wooorm/stmr.svg?style=flat)](https://travis-ci.org/wooorm/stmr)
 
 Martin Porter’s Stemming algorithm<sup>[1](http://tartarus.org/martin/PorterStemmer/)</sup> as a UNIX command. There’s also a C library: [stmr(3)](https://github.com/wooorm/stmr.c).
 
