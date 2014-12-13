@@ -23,16 +23,16 @@
 static char *value;
 
 /**
- * Size in which `value` is increased.
+ * Initial value for `indexMax`.
  */
 
-#define INC 50
+#define BASE_INDEX 50
 
 /**
  * Maximum offset in `value`
  */
 
-static int indexMax = INC;
+static int indexMax = BASE_INDEX;
 
 /**
  * Increase memory.
@@ -43,7 +43,7 @@ increaseValue() {
     char *newValue;
     int index;
 
-    indexMax += INC;
+    indexMax *= 2;
 
     newValue = (char *) malloc(indexMax + 1);
 
