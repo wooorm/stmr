@@ -1,0 +1,19 @@
+{
+  "name": "stmr",
+  "version": "0.0.1",
+  "description": "Porter Stemmer CLI",
+  "license": "MIT",
+  "repo": "wooorm/stmr",
+  "keywords": [
+    "martin",
+    "porter",
+    "stemmer",
+    "algorithm",
+    "bin",
+    "cli"
+  ],
+  "dependencies": {
+    "wooorm/stmr.c": "*"
+  },
+  "install": "make install"
+}
