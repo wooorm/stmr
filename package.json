@@ -1,6 +1,6 @@
 {
   "name": "stmr",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Porter Stemmer CLI",
   "license": "MIT",
   "repo": "wooorm/stmr",
