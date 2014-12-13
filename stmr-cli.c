@@ -3,11 +3,6 @@
 #include <string.h>
 #include <errno.h>
 #include <ctype.h>
-
-/**
- * Utility to detect if `character` is a letter.
- */
-
 #include "stmr.h"
 
 /**
@@ -17,7 +12,7 @@
 #define IS_LETTER(character) (isupper(character) || islower(character))
 
 /**
- * Static string pointer. Passed into `b` above.
+ * Pointer to memory allocation.
  */
 
 static char *value;
@@ -29,7 +24,7 @@ static char *value;
 #define BASE_INDEX 50
 
 /**
- * Maximum offset in `value`
+ * Maximum offset in `value`.
  */
 
 static int indexMax = BASE_INDEX;
@@ -60,9 +55,6 @@ increaseValue() {
 
 /**
  * Tokenise and stem a file
- *
- * @param f
- *
  */
 
 static void
@@ -116,7 +108,7 @@ stemFile(FILE *file) {
 }
 
 /**
- *  Evaluate a word.
+ * Evaluate a word.
  */
 
 static void
@@ -127,6 +119,10 @@ evaluate(const char *input) {
 
     printf("%s\n", value);
 }
+
+/**
+ * CLI.
+ */
 
 int
 main(int argc, char **argv) {
