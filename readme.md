@@ -64,6 +64,6 @@ $ echo "Internationalise" | stmr
 
 [api]: https://github.com/wooorm/stmr.c
 
-[lib]: https://github.com/wooorm/stemmer
+[lib]: https://github.com/words/stemmer
 
 [clib]: https://github.com/clibs/clib
