@@ -56,7 +56,7 @@ $ echo "Internationalise" | stmr
 
 [travis]: https://travis-ci.org/wooorm/stmr
 
-[license]: LICENSE
+[license]: license
 
 [author]: http://wooorm.com
 
