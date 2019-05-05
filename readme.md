@@ -58,9 +58,9 @@ $ echo "Internationalise" | stmr
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[algo]: http://tartarus.org/martin/PorterStemmer/
+[algo]: https://tartarus.org/martin/PorterStemmer/
 
 [api]: https://github.com/wooorm/stmr.c
 
